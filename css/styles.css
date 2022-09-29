@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: #277BC0;
+
+}
+
+a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #FEDB39;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+li {
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #5CB8E4; 
+    align-items: center;
+    font-size: 1.25rem;
+    font-family: 'Bayon', sans-serif;
+    padding: 20px;
+
+}
+
+.rocket-img {
+    width:100px; 
+}
+
+.menu {
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.profile-picture {
+    width: 180px;
+    margin: 50px 0 auto;
+}
+
+.myName{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.aboutMe{
+    color: aliceblue;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.summary{
+    text-align: center;
+}
+
+.research {
+    text-align: center;
+}
+
+.nft-image {
+    width: 180px;
+    margin: 50px 0 auto;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+.description {
+    color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
